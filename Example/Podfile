@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BTAlertController_Example' do
+  pod 'BTAlertController', :path => '../'
+
+  target 'BTAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
